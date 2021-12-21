@@ -5,23 +5,41 @@
 </head>
 
 <body>
+<header>
+    <h1>Short Term Rental Dashboard</h1>
+    <ul>
+        <li><a href="#three">Most Recent Reservations</a></li>
+        <li><a href="#five">Payout Sumamry</a></li>
+        <li><a href="https://www.airbnb.com/hosting/inbox" target="_blank">Airbnb</a></li>
+        <li><a href="https://www.vrbo.com/p/properties" target="_blank">VRBO</a></li>
+        <li><a href="https://airtable.com/appAYqbS2jXQwP0zz/tblGz9Nn8wR7f3LCA/viwS4xjuiv7Hp6dhZ?blocks=hide&date=2021-12-21&mode=twoWeek" target="_blank">Airtable</a></li>
+
+
+
+    </ul>
+
+
+</header>
+
     <div class="float-container">
         <div class="float-child">
             <h1 class ='one' id='calendar'>Calendar View</h1>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrFCz58IKgxSSNjX?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         </div>
-            <div class="float-child">
+        <div class="float-child">
             <h1 class ='two' id='reservation'>Reservation Form</h1>
-    <iframe class="airtable-embed" src="https://airtable.com/embed/shr6lrkLeJOmZfsRV?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shr6lrkLeJOmZfsRV?backgroundColor=green?prefill_Status=Reserved&prefill_A/V=A" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         </div>    
-    <div class='three'>
-        <h1 class="three">Most Recent Reservations</h1>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrKY490M2TfC8LY2?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="90%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>    
+    <div id='three'>
+            <h1 class="three">Most Recent Reservations</h1>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrKY490M2TfC8LY2?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="90%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </div>     
-    <div class="five">
-        <h1 class="five">Payout Summary</h1>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrtEydritHCw1fx5?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-    </div>div>    
+    <div id="five">
+            <h1 class="five">Payout Summary</h1>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrtEydritHCw1fx5?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            <iframe class="airtable-embed" src="https://airtable.com/shr6lrkLeJOmZfsRV?prefill_Status=Reserved&prefill_A/V=A"></iframe>
+    </div>  
 </body>
 
 <footer>
