@@ -7,7 +7,7 @@
 }
 
 .float-child {
-    width: 44%;
+
     float: left;
     padding: 5px;
     border: 2px solid black;
@@ -25,7 +25,7 @@
 header {
     background-color: lightblue;
     padding: 0.5em;
-    width: 89%;
+    width: 99%;
     border-radius: 25%;
     
 }
