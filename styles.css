@@ -3,7 +3,7 @@
     border: 3px solid #fff;
     padding: 20px;
     display: inline;
-    width:100%;
+    width: 100%;
 }
 
 .float-child {
@@ -15,18 +15,19 @@
 }
 
 #one {
-    width:69%;
-
+    width:72%;
 }
 
 #two {
-    width:25%
+    width:25%;
+}
+
 
 header {
     background-color: lightblue;
-    padding: 2px;
+    padding: 0.5em;
     width: 79%;
-    border-radius: 25%;
+    border-radius: 15px;
     
 }
 
@@ -37,6 +38,15 @@ li {
 
 h1 {
     background-color: lightblue;
-    border-radius:25%;
+    border-radius: 15px;
 }
 
+#five {
+    width: 89%;
+    display: noinline-block;
+}
+
+#three {
+    display: inline-block;
+    width: 100%;
+}
