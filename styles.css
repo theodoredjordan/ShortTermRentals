@@ -15,7 +15,7 @@
 }
 
 #one {
-    width:72%;
+    width:69%;
 
 }
 
@@ -24,8 +24,8 @@
 
 header {
     background-color: lightblue;
-    padding: 0.5em;
-    width: 99%;
+    padding: 2px;
+    width: 79%;
     border-radius: 25%;
     
 }
@@ -40,11 +40,3 @@ h1 {
     border-radius:25%;
 }
 
-#five {
-    width: 89%;
-    display: none;
-}
-
-#three {
-    display: none;
-}
